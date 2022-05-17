@@ -12,17 +12,21 @@ function App() {
         <li>Is maintainedby Facebook</li>
         <li>Powers thousands of enterprise apps, including mobel apps</li>
       </ol>
+
     </nav>
   )
   return (
     <div className="navbar">
 
+
       <img src={logo} className="App-logo" alt="logo" />
+
 
       <header>
         <div>{navbar}</div>
       </header>
       
+
       
     </div>
   );
