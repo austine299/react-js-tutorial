@@ -14,6 +14,7 @@ function App() {
       </ol>
     </nav>
   )
+
   return (
     <div className="navbar">
 
@@ -26,6 +27,7 @@ function App() {
       
     </div>
   );
+  
 }
 
 export default App;
