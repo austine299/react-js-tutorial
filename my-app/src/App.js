@@ -12,6 +12,7 @@ function App() {
       <Footer/>
 
     </div>
+
   )
 
   return (
@@ -23,6 +24,7 @@ function App() {
       </div>
       
       
+
     </div>
   );
   
