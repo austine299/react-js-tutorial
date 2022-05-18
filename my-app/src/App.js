@@ -4,12 +4,12 @@ import './App.css';
 function App() {
   const navbar =(
     <nav>
-      <h1>Fun factors about react</h1>
+      <h1>Fun facts about react</h1>
       <ol>
         <li>Was first released in 2013</li>
         <li>Was originallytcreated by Jordan Walke</li>
         <li>Has well over 100k stars on Github </li>
-        <li>Is maintainedby Facebook</li>
+        <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobel apps</li>
       </ol>
     </nav>
