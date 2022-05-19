@@ -53,5 +53,43 @@
 }
 
 .navbar{
-  box-shadow:10px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo{
+  display: flex;
+  color: #61DAFB;
+}
+
+.maincontent{
+  background-color: rgba(29, 27, 27, 0.8);
+  padding: 10px; 
+  color: #fff;
+  font-weight: bold;
+  background-image: url(C:\Users\chidima\OneDrive\Documents\React-JS\my-app\public\logo192.png );
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.maincontent .main-title{
+  font-size: 40px;
+}
+
+.maincontent .main-facts li{
+  line-height: 19px;
+  padding-block: 10px;
+  max-width: 400px;
+  
+}
+.footer{
+  background-color: rgb(22, 17, 17);
+  padding: 10px;
+  color: #fff;
+}
+
+.maincontent .main-facts li::marker{
+  font-size: 1.6rem;
+  color: #61DAFB;
 }

@@ -15,7 +15,7 @@ function App() {
   )
 
   return (
-    <div className="navbar">
+    <div className="display">
 
 
       <div>
