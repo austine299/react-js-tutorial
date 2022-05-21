@@ -68,7 +68,7 @@
   padding: 10px; 
   color: #fff;
   font-weight: bold;
-  background-image: url(C:\Users\chidima\OneDrive\Documents\React-JS\my-app\public\logo192.png );
+  background-image: url(../images/logo192.png);
   background-repeat: no-repeat;
   background-position: right 75%;
 }
