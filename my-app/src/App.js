@@ -12,19 +12,13 @@ function App() {
       <Footer/>
 
     </div>
-
   )
 
   return (
-    <div className="navbar">
-
-
+    <div className="display">
       <div>
         <div>{navbar}</div>
       </div>
-      
-      
-
     </div>
   );
   
