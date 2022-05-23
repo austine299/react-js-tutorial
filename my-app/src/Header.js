@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import React from "react";
 
-
 export default function Header(){
 
     return(
@@ -23,7 +22,4 @@ export default function Header(){
       
     )
     
-  
   }
-
-  
