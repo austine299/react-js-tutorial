@@ -98,3 +98,4 @@ export default function Hero(){
                 <p className="bold">Price: $10</p>
             </div>
 */
+
