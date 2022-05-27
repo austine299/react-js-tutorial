@@ -13,7 +13,6 @@ export default function Hero(){
                 ratingStar = {item.ratingStar}
                 rate = {item.stats.rating}
                 reviewCount ={item.stats.reviewCount}
-                country = {item.location}
                 cloth ={item.description}
                 price ={item.price}
             />

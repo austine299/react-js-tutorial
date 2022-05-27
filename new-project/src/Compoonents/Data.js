@@ -63,7 +63,7 @@ export default[
             rating: 5.0,
             reviewCount: 20
         },
-        location: "Online",
+        location: "",
         description: "Sexy gown",
         price: 30,
         openSpot: 33,
@@ -85,60 +85,3 @@ export default[
 ]
 
 
-/*
-<div className="card">
-                <img src={Img} className="card-img" alt="img" />
-                <div className="crad-stats">
-                    <img src={Rate} className="star" alt="rate"/>
-                    <span>5.0</span>
-                    <span className="gray">(6) .</span>
-                    <span className="gray">Nigeria</span>
-                </div>
-                <p>Sexy Gown</p>
-                <p className="bold">Price: $10</p>
-            </div>
-            <div className="card">
-                <img src={Img2} className="card-img" alt="img"  />
-                <div className="crad-stats">
-                    <img src={Rate} className="star" alt="rate"/>
-                    <span>5.0</span>
-                    <span className="gray">(6) .</span>
-                    <span className="gray">Nigeria</span>
-                </div>
-                <p>Sexy Gown</p>
-                <p className="bold">Price: $10</p>
-            </div>
-            <div className="card">
-                <img src={Img3} className="card-img" alt="img"  />
-                <div className="crad-stats">
-                    <img src={Rate} className="star" alt="rate"/>
-                    <span>5.0</span>
-                    <span className="gray">(6) .</span>
-                    <span className="gray">Nigeria</span>
-                </div>
-                <p>Sexy Gown</p>
-                <p className="bold">Price: $10</p>
-            </div>
-            <div className="card">
-                <img src={Img} className="card-img" alt="img" />
-                <div className="crad-stats">
-                    <img src={Rate} className="star" alt="rate"/>
-                    <span>5.0</span>
-                    <span className="gray">(6) .</span>
-                    <span className="gray">Nigeria</span>
-                </div>
-                <p>Sexy Gown</p>
-                <p className="bold">Price: $10</p>
-            </div>
-            <div className="card">
-                <img src={Img2} className="card-img" alt="img"  />
-                <div className="crad-stats">
-                    <img src={Rate} className="star" alt="rate"/>
-                    <span>5.0</span>
-                    <span className="gray">(6) .</span>
-                    <span className="gray">Nigeria</span>
-                </div>
-                <p>Sexy Gown</p>
-                <p className="bold">Price: $10</p>
-            </div>
-*/
