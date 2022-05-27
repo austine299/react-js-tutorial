@@ -16,9 +16,12 @@ function App() {
 
   return (
     <div className="display">
+
+
       <div>
         <div>{navbar}</div>
       </div>
+      
     </div>
   );
   
