@@ -37,6 +37,15 @@
   }
 }
 
-.counter{
-  height: 60px;
+.header--nav{
+  background-color: #61dafb;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main--body{
+  font-size: 15px;
+  font-weight: bold;
 }

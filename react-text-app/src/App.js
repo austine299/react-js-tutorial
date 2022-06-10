@@ -1,27 +1,18 @@
 import React from "react"
-// import Count from "./counter"
+import Header from "./Header"
+import Body from "./Body"
+import "./App.css"
 
 
 function App() {
 
-const [count, setCount] = React.useState(0)
-
-function Add(){
-  setCount (prevCount => prevCount + 1)
-}
-
-function subtract(){
-  setCount (prevCount => prevCount - 1)
-}
+  const [user, setUser] = React.useState("Ugochukwu")
 
   return (
     <div className="counter">
-    <button className="counter--minus" onClick={subtract}>-</button>
-    
-    <div className="counter--count">
-        <h1>{count}</h1>
-    </div>
-    <button className="counter--plus" onClick={Add}>+</button>
+      
+      <Header user = {user}/>
+      <Body user = {user} />
 
     </div>
   );
