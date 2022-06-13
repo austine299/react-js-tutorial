@@ -3,7 +3,6 @@ import "./App.css"
 import Box from "./box"
 import boxes from "./Boxes"
 
-
 function App(props) {
 
   const [squares, setSquares] = React.useState(boxes)
@@ -20,6 +19,7 @@ function App(props) {
       {squaresElement}
 
     </main>
+
   );
 }
 
