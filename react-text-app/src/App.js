@@ -1,20 +1,25 @@
 import React from "react"
-import Header from "./Header"
-import Body from "./Body"
 import "./App.css"
+import Box from "./box"
+import boxes from "./Boxes"
 
 
-function App() {
+function App(props) {
 
-  const [user, setUser] = React.useState("Ugochukwu")
+  const [squares, setSquares] = React.useState(boxes)
+
+
+  const squaresElement  = squares.map(square =>(
+    <Box key={square.id} on = {square.on}/>
+  ))
+
 
   return (
-    <div className="counter">
+    <main>
       
-      <Header user = {user}/>
-      <Body user = {user} />
+      {squaresElement}
 
-    </div>
+    </main>
   );
 }
 
