@@ -2,7 +2,7 @@ import React from "react"
 import "./App.css"
 
 export default function Form(){
-    
+   
     const[formData, setFormData] = React.useState ({
         email: "", 
         password: "",
@@ -84,5 +84,6 @@ export default function Form(){
                 <button className="btn ">Sign Up</button>
             </form>
         </div>
+
     )
 }
